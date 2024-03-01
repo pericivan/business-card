@@ -41,12 +41,24 @@ button {
   background-color: white;
   border: 1px #D1D5DB;
   left: 30%;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.email-btn:hover {
+  background-color: rgb(161, 161, 161);
+  transform: translate(2px, 2px)
 }
 
 .linkedin-btn {
   background-color: #5093E2;
   color: white;
   right: 30%;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.linkedin-btn:hover {
+  background-color: #2c7ad3;
+  transform: translate(2px, 2px)
 }
 
 .about {
